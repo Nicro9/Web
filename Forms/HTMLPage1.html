@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="#file.php" method="get">
+        <p><input type="text" size="25" maxlength="25" placeholder="Введите ваше имя" id="fullName" /></p>
+        <p><input type="tel" placeholder="Ваш номер телефона" /></p>
+        <p><input type="password" placeholder="Введите пароль" id="password" /></p>
+        <p><input type="email" placeholder="E-mail" /></p>
+        <p><input type="file" /></p>
+        <p>Дата рождения:<br><input type="date" placeholder="Дата рождения" /></p>
+        <p>Добавте фото:<br><input type="file" id="photo" /></p>
+        <p><textarea placeholder="О себе"></textarea></p>
+        <!--<h2>Какие языки вы знаете</h2>-->
+        <fieldset>
+            <legend>Какие языки вы знаете:</legend>
+            <p>
+                <input type="checkbox" id="Russian"><label for="Russian">Русский</label><br>
+                <input type="checkbox" id="English"><label for="English">English</label><br>
+                <input type="checkbox" id="Deutche"><label for="Deutche">Deutche</label><br>
+                <input type="checkbox" id="Italiano"><label for="Italiano">Italiano</label><br>
+                <input type="checkbox" id="Espaniol"><label for="Espaniol">Espaniol</label><br>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Выберете вид обучения:</legend>
+            <input type="radio" name="radioLearningForm" id="stacionar"/> <label for="stacionar">Стационар</label>
+            <input type="radio" name="radioLearningForm" id="semistacionar"/><label for="semistacionar">Полу-стационар</label>
+        </fieldset>
+
+        <p>
+            Выберете ваш любимый цвет: <input type="color"><br>
+            Когда вы хотите каникулы: <input type="week"><br>
+            Насколько вы довольны обучением: <input type="range"><br>
+            Куда бы вы хотели поехать на каникулах: <input type="search" placeholder="Поиск"><br>
+
+        </p>
+        <p>
+            <input type="reset" />  
+            <input type="submit" />]
+        </p>
+    </form>
+</body>
+</html>
